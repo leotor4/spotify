@@ -45,10 +45,21 @@ section{
     text-align: center;
 }
 
+#banner{
+    width: 100%;
+    height: calc(130vh - 5rem) ; 
+    background-color: rgb(41, 65, 171);
+    background-image: url("https://www-growth.scdn.co/static/home/bursts-tablet.svg");
+    background-size: 153%;
+    background-position: right 40% center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
 h1{
     font-size: 104px;
     font-family: Helvetica, sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     color: #1ed760;
     margin: 0;
     margin-left: 46px;
@@ -59,20 +70,58 @@ h1{
 
 h3{
     font-family: Helvetica, sans-serif;
-    font-weight: bold;
+    font-weight: 500;
     color: #1ed760;
     margin: 0;
     margin-left: 46px;
     margin-right: 46px;
-    margin-top: 4%;
+    margin-top: 20px;
     padding: 0;
 }
 
-#banner{
-    width: 100%;
-    height: calc(130vh - 5rem) ; 
-    background-color: rgb(41, 65, 171);
+#buttons{
+    display: block;
+    /* justify-items: center; */
+    margin: 12px;
+    margin-top: 40px;
 }
+
+#button{
+    background-color: var(--background-base,#1ed760);
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: var(--text-base,#000000);
+    border-radius: 500px;
+    border: 0;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: inherit;
+    padding: 14px 32px;
+    --background-base: #1ED760  !important;
+    --background-highlight: #2DE26D  !important;
+    --background-press: #43E57D  !important;
+    --background-elevated: #1ED760  !important;
+    --background-tinted: #1ED760  !important;
+    --background-unsafe-for-small-text: #1ED760  !important;
+    --text-base: #2941AB  !important;
+    --text-subdued: #2941AB  !important;
+    --text-bright-accent: #2941AB  !important;
+    --text-negative: #2941AB  !important;
+    --text-warning: #2941AB  !important;
+    --text-positive: #2941AB  !important;
+    --text-announcement: #2941AB  !important;
+    --essential-base: #2941AB  !important;
+    --essential-subdued: #2941AB  !important;
+    --essential-bright-accent: #2941AB  !important;
+    --essential-negative: #2941AB  !important;
+    --essential-warning: #2941AB  !important;
+    --essential-positive: #2941AB  !important;
+    --essential-announcement: #2941AB  !important;
+    --decorative-base: #2941AB  !important;
+    --decorative-subdued: #2941AB  !important;
+    margin-top: 20px;
+}
+
 
 footer{
     height: 80vh;
