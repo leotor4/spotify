@@ -140,6 +140,9 @@ table{
     font-weight: bold;
 }
 
+th{
+    color:#919496
+}
 td {
     padding-bottom: 1.5em;
   }
